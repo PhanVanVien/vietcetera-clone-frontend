@@ -6,7 +6,7 @@ body {
   font-weight: 400;
 }
 
-body,
+/* body,
 html {
   font-family: "Poppins", sans-serif;
 }
@@ -28,4 +28,4 @@ html {
   font-weight: 900;
   src: local("Poppins"),
     url(./assets/fonts/Poppins-Black.ttf) format("truetype");
-}
+} */

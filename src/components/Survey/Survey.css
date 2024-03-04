@@ -43,6 +43,7 @@
   font-weight: bold;
   cursor: pointer;
   border: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .survey-button a {
