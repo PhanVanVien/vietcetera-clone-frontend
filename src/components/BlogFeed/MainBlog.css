@@ -1,12 +1,22 @@
 .container-main {
   display: grid;
-  grid-template-columns: 1fr 2.7fr 1fr; /* Three columns, left ad, blog content, right ad */
+  grid-template-columns: 21% 58% 21%; /* Three columns, left ad, blog content, right ad */
 }
 
 .left-ad,
 .right-ad {
   background-color: #ffffff;
+}
+
+.right-ad {
   padding: 0px 10px;
+}
+
+.left-ad {
+  padding: 0px 0px 0px 10px;
+  /* float: left; */
+  height: calc(100vh - 60px);
+  overflow-y: auto;
 }
 
 .blog-content {

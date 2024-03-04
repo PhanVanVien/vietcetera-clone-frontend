@@ -11,7 +11,9 @@ const RightContent = () => {
             <div className="number">1</div>
           </div>
           <div className="content-index">
-            10 Dấu hiệu bạn đang âm thầm phát triển
+            <a href="" style={{ textDecoration: "none", color: "inherit" }}>
+              10 Dấu hiệu bạn đang âm thầm phát triển
+            </a>
           </div>
         </div>
         <div className="index-container">
@@ -19,7 +21,10 @@ const RightContent = () => {
             <div className="number">2</div>
           </div>
           <div className="content-index">
-            New collar - Lực lượng lao động mới, không bằng đại học có chới với?
+            <a href="" style={{ textDecoration: "none", color: "inherit" }}>
+              New collar - Lực lượng lao động mới, không bằng đại học có chới
+              với?
+            </a>
           </div>
         </div>
         <div className="index-container">
@@ -27,7 +32,10 @@ const RightContent = () => {
             <div className="number">3</div>
           </div>
           <div className="content-index">
-            "Career break" - Khi nào thì bạn cần một khoảng nghỉ cho sự nghiệp?
+            <a href="" style={{ textDecoration: "none", color: "inherit" }}>
+              "Career break" - Khi nào thì bạn cần một khoảng nghỉ cho sự
+              nghiệp?
+            </a>
           </div>
         </div>
         <div className="index-container">
@@ -35,7 +43,9 @@ const RightContent = () => {
             <div className="number">4</div>
           </div>
           <div className="content-index">
-            Doom spending ảnh hưởng gì đến sức khỏe tài chính của bạn?
+            <a href="" style={{ textDecoration: "none", color: "inherit" }}>
+              Doom spending ảnh hưởng gì đến sức khỏe tài chính của bạn?
+            </a>
           </div>
         </div>
         <div className="index-container">
@@ -43,7 +53,10 @@ const RightContent = () => {
             <div className="number">5</div>
           </div>
           <div className="content-index">
-            Roommate phase: Khi tình yêu thoái hóa thành tình... người thuê trọ
+            <a href="" style={{ textDecoration: "none", color: "inherit" }}>
+              Roommate phase: Khi tình yêu thoái hóa thành tình... người thuê
+              trọ
+            </a>
           </div>
         </div>
       </div>
@@ -55,7 +68,7 @@ const RightContent = () => {
           style={{ display: "block", borderRadius: "1rem" }}
         ></img>
       </div>
-      <div>
+      <div className="ad-right">
         <img src="https://cdn-resize-img.vietcetera.com/_next/image?url=https%3A%2F%2Fimg.vietcetera.com%2Fuploads%2Fimages%2F01-apr-2022%2Fskyscraper.jpg&q=80&w=600"></img>
       </div>
     </div>
