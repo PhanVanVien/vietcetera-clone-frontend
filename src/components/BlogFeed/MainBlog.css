@@ -1,0 +1,17 @@
+.container-main {
+  display: grid;
+  grid-template-columns: 1fr 2.7fr 1fr; /* Three columns, left ad, blog content, right ad */
+}
+
+.left-ad,
+.right-ad {
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.blog-content {
+  padding: 0px 24px;
+  background-color: #f0f0f0;
+  border-left: 2px solid #e6e6e6; /* Adjusted border thickness */
+  border-right: 2px solid #e6e6e6; /* Adjusted border thickness */
+}

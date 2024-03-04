@@ -1,0 +1,119 @@
+.footer {
+  /* margin-bottom: 20px; */
+  /* position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0; */
+}
+
+.container-footer0 {
+  background-color: #f6f6f6;
+}
+
+.container-footer1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container-footer2 {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+.footer2-left {
+  flex: 1;
+}
+
+.footer2-right {
+  flex: 1;
+}
+
+.content-footer1 {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding: 10px 0px;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+.content-footer2 {
+  display: flex;
+  width: 70%;
+}
+
+.ref-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.footer-title {
+  font-weight: bold;
+  padding: 0px 0px 12px;
+}
+
+.chcontainer {
+  display: flex;
+}
+
+.ch {
+  display: flex;
+  flex-direction: column;
+}
+
+.qr {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.container-footer3 {
+  display: flex;
+  justify-content: center;
+}
+
+.content-footer3 {
+  width: 60%;
+  border-top: 2px solid #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0px;
+}
+
+.content-footer3 > div {
+  margin-bottom: 10px; /* Adjust the value to set the desired line spacing */
+}
+
+.scroll-top-button {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 99;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #f6f6f6;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.scroll-top-button:hover {
+  background-color: #bfbfbf;
+}

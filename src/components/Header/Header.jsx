@@ -3,12 +3,6 @@ import "./Header.css";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 
 const Header = () => {
-  const [inputFocused, setInputFocused] = useState(false);
-
-  const handleInputFocusBlur = () => {
-    setInputFocused(!inputFocused);
-  };
-
   return (
     <div className="nav">
       <div className="header-container">
@@ -23,7 +17,7 @@ const Header = () => {
         </div>
         <div
           className="search-container"
-          style={{ width: "700px", height: "49.6px" }} // Adjust the width here
+          style={{ width: "700px", height: "49.6px" }}
         >
           <div style={{ padding: "15px" }}>
             <FaMagnifyingGlass style={{ width: "18px", height: "18px" }} />
@@ -33,12 +27,8 @@ const Header = () => {
             style={{ flex: "1" }}
             type="text"
             placeholder="Tìm kiếm"
-            onFocus={handleInputFocusBlur}
-            onBlur={handleInputFocusBlur}
           />
-          <button className="button-search" style={{ marginRight: "10px" }}>
-            TÌM KIẾM
-          </button>
+          <button className="button-search">TÌM KIẾM</button>
         </div>
         <div className="button-container">
           <button className="button">ĐĂNG NHẬP</button>

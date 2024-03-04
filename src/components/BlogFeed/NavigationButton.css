@@ -1,0 +1,26 @@
+.container-nav {
+  display: flex;
+}
+
+.nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: solid 1px;
+  cursor: pointer;
+  margin: 0 5px;
+  border: none;
+}
+
+#active {
+  background-color: white;
+  color: black;
+}
+
+#deactive {
+  background-color: #ebecee;
+  color: #bfbfbf;
+}
