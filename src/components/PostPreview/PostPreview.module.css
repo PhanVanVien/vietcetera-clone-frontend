@@ -1,0 +1,88 @@
+.postcard {
+  display: flex;
+  margin: 0px 0px 16px;
+  padding: 28px 24px;
+  border: black solid 1px;
+  border-radius: 16px;
+  background: #fff;
+  border: 2px solid transparent;
+  border-bottom: 1px solid #dedede;
+  box-shadow: 0 6px 8px rgba(41, 41, 41, 0.04);
+}
+
+.postcard:hover {
+  background-color: #fafafa;
+  border: 2px solid #dedede;
+}
+
+.thumbnail {
+  width: 286.85px;
+  height: 161.35px;
+  border-radius: 8px;
+  margin: 16px 16px 16px 0;
+}
+
+.thumbnailcontainer {
+  margin-right: 8px;
+}
+
+.contentcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.description {
+  margin-top: 12px;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+.authorcontainer {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.type {
+}
+
+.typecontainer {
+  padding: 4px 10px;
+  margin: 0 12px 0 0;
+  border: 1px solid;
+  color: #292929;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.detailpost {
+  display: flex;
+  align-items: center;
+}
+
+.detailauthor {
+  display: flex;
+}
+
+.actioncontainer {
+  display: flex;
+}
+
+.time {
+  font-size: 12px;
+}
+
+.name {
+  padding-bottom: 4px;
+}
+
+.avt {
+  margin-right: 8px;
+}

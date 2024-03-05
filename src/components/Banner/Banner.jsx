@@ -3,7 +3,7 @@ import banner3 from "../../assets/images/ad3.png";
 import banner1 from "../../assets/images/ad1.png";
 import banner2 from "../../assets/images/ad2.png";
 
-import "./Banner.css";
+import styles from "./Banner.module.css";
 
 const Banner = () => {
   const randomNum = Math.floor(Math.random() * 3 + 1);
@@ -25,7 +25,11 @@ const Banner = () => {
   }
 
   return (
-    <img className="centered-image" src={randomBanner} alt="Advertisement" />
+    <img
+      className={styles.centeredimage}
+      src={randomBanner}
+      alt="Advertisement"
+    />
   );
 };
 

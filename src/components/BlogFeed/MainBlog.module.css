@@ -1,25 +1,25 @@
-.container-main {
+.containermain {
   display: grid;
   grid-template-columns: 21% 58% 21%; /* Three columns, left ad, blog content, right ad */
 }
 
-.left-ad,
-.right-ad {
+.leftad,
+.rightad {
   background-color: #ffffff;
 }
 
-.right-ad {
+.rightad {
   padding: 0px 10px;
 }
 
-.left-ad {
+.leftad {
   padding: 0px 0px 0px 10px;
   /* float: left; */
   height: calc(100vh - 60px);
   overflow-y: auto;
 }
 
-.blog-content {
+.blogcontent {
   padding: 0px 24px;
   background-color: #ffffff;
   border-left: 1px solid #e6e6e6; /* Adjusted border thickness */

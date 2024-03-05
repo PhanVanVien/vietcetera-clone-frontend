@@ -1,15 +1,15 @@
 import React from "react";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
-import "./NavigationButton.css";
+import styles from "./NavigationButton.module.css";
 
 const NavigationsButton = () => {
   return (
-    <div className="container-nav">
-      <div className="nav-button" id="deactive">
+    <div className={styles.containernav}>
+      <div className={styles.navbutton} id="deactive">
         <IoIosArrowBack />
       </div>
-      <div className="nav-button" id="active">
+      <div className={styles.navbutton} id="active">
         <IoIosArrowForward />
       </div>
     </div>
