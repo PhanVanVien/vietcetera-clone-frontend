@@ -13,7 +13,9 @@ const MainBlog = () => {
       </div>
       <div className={styles.blogcontent}>
         <PostPreview />
-        <PostPreview />
+        <div className="button-container">
+          <button className="button">XEM THÊM</button>
+        </div>
       </div>
       <div className={styles.rightad}>
         <RightContent />

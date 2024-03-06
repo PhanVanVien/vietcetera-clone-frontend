@@ -23,6 +23,8 @@
 }
 
 .thumbnailcontainer {
+  display: flex;
+  align-items: center;
   margin-right: 8px;
 }
 
@@ -48,9 +50,7 @@
   display: flex;
   align-items: center;
   margin-top: 12px;
-}
-
-.type {
+  position: relative;
 }
 
 .typecontainer {
@@ -65,14 +65,17 @@
 .detailpost {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .detailauthor {
   display: flex;
+  margin: 0 12px 0 0;
 }
 
 .actioncontainer {
-  display: flex;
+  position: absolute;
+  right: 10px;
 }
 
 .time {
@@ -84,5 +87,32 @@
 }
 
 .avt {
+  display: flex;
   margin-right: 8px;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actioncontainer {
+  display: flex;
+}
+
+.actionbutton {
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.actionbutton:hover {
+  background-color: #bfbfbf;
 }
